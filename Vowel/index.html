@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="input">
+    <!-- <h1>shaarif</h1> -->
+    <input type="text" id="user_input" placeholder="Enter word here">
+    <button onClick = "addwords()" >Add word</button>
+    </div>
+    <div class="maincontainer">
+        
+        <div class="container1">
+            
+            <h2 style="margin-top: 0%;">Words that does not contains vowel</h2>
+            <ul class="normalwords">
+                <li id="normal-words"></li>
+            </ul>
+        </div>
+        <div class="container2">
+            <h2 style="margin-top: 0%;">Words that  contains vowel</h2>
+            <ul class="vowelwords">
+                <li id="vowel-words"></li>
+            </ul>
+
+        </div>
+    </div>
+    <!-- <a onClick="addwords()" style="border: 2px solid black; color:black ;border-radius: 2px;text-decoration: none;" href="">Add word</a> -->
+</body>
+</html>

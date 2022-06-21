@@ -1,0 +1,60 @@
+.maincontainer{
+    background-color: rgb(84, 95, 239);
+    margin-top: 24px;
+    border: 2px solid blue;
+    display: flex;
+    padding: 50px;
+    /* background-image: url("./imges/five-3d-men-cubes-vowel-260nw-1151475335.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+
+    
+    /* height: 84%; */
+    /* text-align: center; */
+}
+.container1{
+    box-shadow: 10px 10px 8px 8px white;
+    background-color: rgb(240, 239, 239);
+    padding: 70px;
+    margin: 5%;
+    border: 2px solid rgb(240, 239, 239);
+    border-radius: 12px;
+    
+}
+.container2{
+    box-shadow: 10px 10px 8px 8px white;
+    background-color: rgb(240, 239, 239);
+    padding: 70px;
+    margin: 5%;
+    border: 2px solid rgb(240, 239, 239);
+    border-radius: 12px;
+}
+.input{
+    box-shadow: 16px 16px 14px 14px white;
+    padding: 22px;
+    border: 2px solid lightcyan;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(240, 239, 239);
+    /* margin-bottom: -12px; */
+}
+.input button{
+    margin-left: -12%;
+    color: blue;
+    border-radius: 12px;
+    border: none;
+    margin-bottom: -12px;
+    background-color: white;
+}
+.input input{
+    padding: 13px;
+    padding-left: 12px;
+    padding-right: 30%;
+    margin-right: 50px;
+    color: blue;
+    border-radius: 22px;
+    border: none;
+    margin-bottom: -22px;
+
+}
+
